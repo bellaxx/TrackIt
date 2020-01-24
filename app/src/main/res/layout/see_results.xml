@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="@dimen/paddingText"
+    android:id="@+id/layout">
+
+    <Button android:id="@+id/btn_selectDate"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="Select date"
+        android:textColor="@color/textColor"/>
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textHighlight"
+        android:layout_marginTop="@dimen/marginDouble"
+        android:textSize="@dimen/textBig"
+        android:text="Running time"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textSize="@dimen/text"
+        android:text="0 h"/>
+
+    <TextView
+        android:id="@+id/distanceLabel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textHighlight"
+        android:layout_marginTop="@dimen/marginDouble"
+        android:textSize="@dimen/textBig"
+        android:text="Distance"/>
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="0 km"/>
+
+</LinearLayout>

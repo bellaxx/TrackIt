@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginDouble">50sp</dimen>
+    <dimen name="textBig">17sp</dimen>
+
+    <dimen name="subtitle">25sp</dimen>
+    <dimen name="text">14sp</dimen>
+
+    <dimen name="marginTop">25sp</dimen>
+    <dimen name="marginNeg">-40sp</dimen>
+    <dimen name="paddingText">15sp</dimen>
+</resources>
